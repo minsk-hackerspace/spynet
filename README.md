@@ -1,6 +1,10 @@
 Documented Nodes:
 
 ```
+internet  - hackerspace.flynet.by
+  Externally visible IP
+    91.215.176.168
+
 zuhel     - "P-330W EE" (ZyXEL Communications)
   Router (incoming Internet, no DHCP, default gateway, wifi disabled)
     192.168.128.1 00:19:CB:13:57:C7
