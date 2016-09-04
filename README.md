@@ -18,6 +18,8 @@ Undocumented Nodes:
 bob 192.168.128.3
 alisa 192.168.128.101
 ??? (smart house)
+192.168.128.220 – MPD audio server
+192.168.128.??? – Pine64
 ```
 
 
