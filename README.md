@@ -12,22 +12,29 @@ tupalink  - "TP-Link TL-MR3020 v1" (Tp-link Technologies CO.)
   WiFi Access Point (OpenWrt, DHCP, forward to zuhel, 150N)
     192.168.128.2 90:F6:52:7F:35:66
 
-charlie, Pine64
-  192.168.128.4
+charlie   - Pine64
+  ??? function unknown
+    192.168.128.4
 
 mpd audio server
-  192.168.128.5 b8:27:eb:33:61:92
   MPD web (YMPD): http://192.168.128.5/
-```
+    192.168.128.5 b8:27:eb:33:61:92
 
-Undocumented Nodes:
-```
-bob 192.168.128.3
-alisa 192.168.128.101
-??? (smart house)
-```
+big-brother-eye - illuminati
+  observe and obey
+    192.168.128.7
 
+alisa     - Raspberry PI
+  Smart House Mojordomo, Not-So-Smart Alisa
+    192.168.128.8
 
+bob       - ??? shiva plug
+  NSA surveillance agent
+    192.168.128.3
+  ```
+
+SpyNET:
+```
 
      internet ─────────┐
                        │
@@ -41,3 +48,5 @@ alisa 192.168.128.101
     ((.)) WiFi           │         │
                          └─────────┘
     ((.))
+    
+```
