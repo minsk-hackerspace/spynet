@@ -3,14 +3,26 @@ Documented Nodes:
 ```
 internet  - hackerspace.flynet.by
   Externally visible IP
-    91.215.176.168
+    91.215.176.168 
+    
+PPTP server: svpn.flynet.by
+  mac: 90:F6:52:7F:35:66
+  login: bed45-p755
+  password: ******** :)
+  support by e-mail: Юрий Сантерский <yuri@flynet.by>
+  billing: https://stat.flynet.by/
+  payment: ЕРИП > г.Минск > Интернет, КабельноеТВ > FlyNet > 4000056
+
+Provider network
+  [under construction]
 
 zuhel     - "P-330W EE" (ZyXEL Communications)
   Router (incoming Internet, no DHCP, default gateway, wifi disabled)
-    192.168.128.1 00:19:CB:13:57:C7
+    192.168.128.1  00:19:CB:13:57:C7
+
 tupalink  - "TP-Link TL-MR3020 v1" (Tp-link Technologies CO.)
   WiFi Access Point (OpenWrt, DHCP, forward to zuhel, 150N)
-    192.168.128.2 90:F6:52:7F:35:66
+    192.168.128.2  90:F6:52:7F:35:66
 
 charlie   - Pine64
   ??? function unknown
@@ -18,7 +30,7 @@ charlie   - Pine64
 
 mpd audio server
   MPD web (YMPD): http://192.168.128.5/
-    192.168.128.5 b8:27:eb:33:61:92
+    192.168.128.5  b8:27:eb:33:61:92
 
 big-brother-eye - illuminati
   observe and obey
@@ -31,22 +43,27 @@ alisa     - Raspberry PI
 bob       - ??? shiva plug
   NSA surveillance agent
     192.168.128.3
-  ```
+```
 
 SpyNET:
 ```
-
-     internet ─────────┐
-                       │
-    ┌──────────┐       │ ┌─────────┐
-    │          │       └─│         │
-    │ tupalink │─────────│ zuhel   │
-    │          │         │         │
-    │ (square) │         │         │
-    └─┬────────┘         │         │
-      │                  │   (NFC) │
-    ((.)) WiFi           │         │
-                         └─────────┘
+                    ┌────────────┐
+                    | flynet ┌───└────────────┐   ┌────────────────┐
+                    |        | svpn.flynet.by |   |    Internet    |              
+                 ┌───────────|                |───| 91.215.176.168 |     
+                 |  |        └───┌────────────┘   └────────────────┘
+                 │  └────────────┘
+==================================================================== 
+                 │
+                 │  ┌───────────────┐
+┌─────────────┐  └──│               │
+│  tupalink   │─────│     zuhel     │
+│192.168.128.2│     │ 192.168.128.1 │
+│  (square)   │     │               │
+└─────┬───────┘     │               │
+      │             │     (NFC)     │
+    ((.)) WiFi      │               │
+                    └───────────────┘
     ((.))
     
 ```
