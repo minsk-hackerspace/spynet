@@ -10,6 +10,8 @@ PPTP server: svpn.flynet.by
   login: bed45-p755
   password: ******** :)
   support by e-mail: Юрий Сантерский <yuri@flynet.by>
+  billing: https://stat.flynet.by/
+  payment: ЕРИП > г.Минск > Интернет, КабельноеТВ > FlyNet > 4000056
 
 Provider network
   [under construction]
