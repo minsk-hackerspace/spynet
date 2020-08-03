@@ -29,32 +29,32 @@ zuhel     - "P-330W EE" (ZyXEL Communications)
     192.168.128.1  00:19:CB:13:57:C7
 
 tupalink  - "TP-Link TL-MR3020 v1" (Tp-link Technologies CO.)
-  URL: tupa.mitt.by
+  URL: tupa
   WiFi Access Point (OpenWrt, DHCP, forward to zuhel, 150N)
     192.168.128.2  90:F6:52:7F:35:66
 
 charlie   - Pine64
-  URL: charlie.mitt.by
+  URL: charlie
   ??? function unknown
     192.168.128.4
 
 mpd audio server
-  URL: mpd.mitt.by
+  URL: mpd
   MPD web (YMPD): http://192.168.128.5/
     192.168.128.5  b8:27:eb:33:61:92
 
 big-brother-eye - illuminati
-  URL: bro.mitt.by
+  URL: bro
   observe and obey
     192.168.128.7
 
 alisa     - Raspberry PI
-  URL: alisa.mitt.by
+  URL: alisa
   Smart House Mojordomo, Not-So-Smart Alisa
     192.168.128.8
 
 bob       - ??? shiva plug
-  URL: bob.mitt.by
+  URL: bob
   NSA surveillance agent
     192.168.128.3
 ```
