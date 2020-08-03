@@ -1,7 +1,7 @@
 Entrypoints:
 
-* green.mhs.by - Green Haсkerspace @ WHVX+64, Minsk (91.215.176.168)
-* malino.mhs.by - Malino Hackerspace @ VFFH+45, Minsk (86.57.217.140)
+* green.mhs.by - Green Haсkerspace @ WHVX+64J, Minsk (91.215.176.168)
+* malino.mhs.by - Malino Hackerspace @ VFFH+55C, Minsk (86.57.217.140)
 
 ---
 
