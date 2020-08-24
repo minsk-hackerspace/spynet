@@ -1,7 +1,20 @@
 Entrypoints:
 
 * green.mhs.by - Green Haсkerspace @ WHVX+64J, Minsk (91.215.176.168)
-* malino.mhs.by - Malino Hackerspace @ VFFH+55C, Minsk (86.57.217.140)
+* malino.mhs.by - Malino Hackerspace @ VFFH+55C, Minsk
+  <details>
+    <summary>86.57.217.140</summary>
+
+    Mikrotik RouterOS v6.45.7
+    
+    ```sh
+    $ nmap -A -p- 86.57.217.140          
+    Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-24 22:36 +03
+    Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+    Nmap done: 1 IP address (0 hosts up) scanned in 3.53 seconds
+    ```
+    
+  </details>
 
 ---
 
