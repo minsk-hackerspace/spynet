@@ -5,7 +5,7 @@ Entrypoints:
   <details>
     <summary>86.57.217.140</summary>
 
-    Mikrotik RouterOS v6.45.7
+    RouterOS v6.45.7 (Mikrotik RB2011UiAS-RM)
     
     ```sh
     $ nmap -A -p- 86.57.217.140          
